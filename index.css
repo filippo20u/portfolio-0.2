@@ -1,21 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
-
-.my-stack {
-
-    background-color: aqua;
-}
-
 html{
-  max-width: 800px;
+  
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
+  text-align:center;
+  text-align:justify;
+}
+
+img{
+  max-height: 500px;
+  max-width: 500px;
+}
+
+header{
+
+  background-color: chartreuse;
 }
 
 body{
-  max-width: 300px; 
-	margin: 0 auto !important; 
-	float: none !important; 
-  background-color: blueviolet;
+  max-width: 1280px; 
+  background-color: rgb(255, 255, 255);
+}
+
+
+.carousel-slide{
+        
+  background-color: coral;
+}
+
+
+.my-story {
+
+  background-color: rgb(39, 199, 47);
+}
+
+.my-stack {
+
+  background-color: aqua;
+}
+
+.my-projects {
+
+  background-color: rgb(214, 16, 49);
+}
+
+.project-card{
+
+  background-color: tomato;
+}
+
+.card-img-top{
+  height: 100px;
+  width: 100px;
+
+
+}
+
+.flexone-pro{
+
+  flex-direction: row ;
+}
+footer{
+
+  background-color: orangered;
 }

@@ -1,16 +1,14 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-
-
-  body {
-    margin: auto;
-    max-width: 1280px;
-    font-family: sans-serif;
-    background-color: rgb(78, 94, 94);
-  }
 
 
 .my-stack {
 
-    background-color: aqua !important;
+    background-color: aqua;
+}
+
+html{
+  max-width: 800;
+  background-color: rgb(243, 242, 242);
+  font-family: 'Roboto', sans-serif;
 }

@@ -6,7 +6,10 @@ html{
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
   text-align:center;
-  text-align:justify;
+  /* text-align:justify; */
+  /* line-height:10px; */
+  
+  
 }
 
 img{
@@ -19,15 +22,35 @@ header{
   background-color: chartreuse;
 }
 
+.navbar {
+
+  position:fixed;
+  top:0px;
+  left:0px;
+  background-color: hsl(180, 70%, 25%);
+  width: 100%;
+
+}
+
+.navbar-ul {
+  display:flex;
+  justify-content:space-between;
+  margin: 20px; 
+  margin-right: 20px;
+  margin: 10px;
+}
+
+
 body{
   max-width: 1280px; 
   background-color: rgb(255, 255, 255);
+  margin:auto;
 }
 
 
 .carousel-slide{
         
-  background-color: coral;
+  background: linear-gradient(50deg, #18b8b8, #FFCCCC);
 }
 
 
@@ -39,11 +62,13 @@ body{
 .my-stack {
 
   background-color: aqua;
+  text-align: justify;
 }
 
 .my-projects {
 
   background-color: rgb(214, 16, 49);
+  background-image: url("./assets/pics/projects/treasurehunt.jpg");
 }
 
 .project-card{
@@ -54,13 +79,18 @@ body{
   border-radius: 5px;
   margin: 10px 5px;
   padding: 4px;
-  }
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  opacity:0.7;
+}
 
+
+.project-card:hover {
+  transform: scale(1.1);
+}
 
 .card-img-top{
   height: 100px;
   width: 100px;
-
 
 }
 
@@ -72,4 +102,34 @@ body{
 footer{
 
   background-color: orangered;
+}
+
+
+h1 {
+  font-size: 68px;
+  font-weight:800;
+}
+h2 {
+  font-size: 52px;
+ font-weight:600;
+}
+h3 {
+  font-size: 40px;
+ font-weight:500;
+}
+h4 {
+  font-size: 32px;
+ font-weight:400;
+}
+h5 {
+  font-size: 21px;
+   font-weight:300;
+}
+h6 {
+  font-size: 14px;
+ font-weight:200;
+}
+
+a:hover {
+  color: rgb(255, 0, 242);
 }

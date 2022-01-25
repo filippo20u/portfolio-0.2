@@ -49,7 +49,13 @@ body{
 .project-card{
 
   background-color: tomato;
-}
+  width:245px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+  }
+
 
 .card-img-top{
   height: 100px;
@@ -59,9 +65,10 @@ body{
 }
 
 .flexone-pro{
-
-  flex-direction: row ;
+ display:flex;
+ justify-content:space-between;
 }
+
 footer{
 
   background-color: orangered;

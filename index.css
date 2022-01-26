@@ -12,14 +12,15 @@ html{
   
 }
 
-img{
-  max-height: 500px;
-  max-width: 500px;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 header{
 
   background-color: chartreuse;
+  height: 200px;
 }
 
 .navbar {
@@ -29,6 +30,8 @@ header{
   left:0px;
   background-color: hsl(180, 70%, 25%);
   width: 100%;
+  height: 50px;
+  color: #ccffff;
 
 }
 
@@ -40,6 +43,10 @@ header{
   margin: 10px;
 }
 
+.nav-link {
+  color: #fdfdfd;
+  text-shadow: 0ex;
+}
 
 body{
   max-width: 1280px; 
@@ -56,7 +63,15 @@ body{
 
 .my-story {
 
-  background-color: rgb(39, 199, 47);
+  background-color: rgb(77, 93, 184);
+}
+
+.bio{
+  display: flex;
+}
+
+.bio-img{
+  max-height: 600px;
 }
 
 .my-stack {
@@ -133,3 +148,89 @@ h6 {
 a:hover {
   color: rgb(255, 0, 242);
 }
+
+
+
+#rect {
+  height: 40px;
+  width: 70%;
+  background: black;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+#rect {
+
+animation-name: rainbow;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+0% {background-color: blue;}
+50% {background-color: rgb(39, 211, 153);}
+100% {background-color: yellow;}
+}
+
+
+button {
+  border-radius: 5px;
+  color: white;
+  background-color: #0F5897;
+  padding: 5px 10px 8px 10px;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes background-color {
+
+100% { background-color: #4791d0; }
+}
+
+
+#field-ball {
+
+  width: 200px;
+  height: 200px;
+}
+
+#ballone  {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ce1515
+  );
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 249px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+
+
+
+
+

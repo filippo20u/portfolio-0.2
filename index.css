@@ -19,8 +19,8 @@ img {
 
 header{
 
-  background-color: chartreuse;
-  height: 200px;
+  background-color: rgb(87, 155, 19);
+  height: 50px;
 }
 
 .navbar {
@@ -55,9 +55,9 @@ body{
 }
 
 
-.carousel-slide{
+.slide{
         
-  background: linear-gradient(50deg, #18b8b8, #FFCCCC);
+  background: linear-gradient(50deg, #2a148b, #FFCCCC);
 }
 
 
@@ -68,6 +68,7 @@ body{
 
 .bio{
   display: flex;
+  flex-direction:row;
 }
 
 .bio-img{
@@ -75,7 +76,8 @@ body{
 }
 
 .my-stack {
-
+  display: flex;
+  flex-direction:row;
   background-color: aqua;
   text-align: justify;
 }
@@ -230,7 +232,74 @@ button:hover {
 }
 
 
+/* #new CSS for Feb2022 */
+
+.footer-index{
+
+  background-color: var(--celadon-green);
+}
+
+.flex-main{
+  height: 200px;
+  background-color: var(--myrtle-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
 
 
+ .card-main{
+
+  /* background-color: var(--celadon-green); */
+  width:100px;
+  height: 100px;;
+  /* border: 1px solid #ccc;
+  border-radius: 5px; */
+  margin: 10px 5px;
+  padding: 4px;
+  /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+  opacity:0.9;
+}
 
 
+.project-card:hover {
+  transform: scale(1.08);
+}
+
+
+.slide-index{
+
+  background-color: var(--platinum);
+}
+
+
+:root {
+
+/* CSS HEX */
+--platinum: #e6e9e7ff;
+--celadon-green: #2a8d82ff;
+--myrtle-green: #437979ff;
+--deep-space-sparkle: #506f75ff;
+--black-coral: #535b65ff;
+}
+
+.flex-main-big{
+
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  /* align-content: center; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+
+
+  height: 600px;
+  background-color: var(--deep-space-sparkle);
+ }
+
+.proj-img{
+  height: 400px;
+  width: 400px;
+}

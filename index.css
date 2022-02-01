@@ -272,6 +272,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   background-color: var(--platinum);
+  justify-content: space-around;
+  height: 200px;
 }
 
 

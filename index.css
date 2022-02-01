@@ -107,7 +107,7 @@ body{
 
 .card-img-top{
   height: 100px;
-  width: 100px;
+  width:auto;
 
 }
 

@@ -306,3 +306,11 @@ button:hover {
   height: 400px;
   width: 400px;
 }
+
+.card-img-top:hover {
+  transform: scale(1.08);
+}
+
+.proj-img:hover {
+  transform: scale(1.08);
+}

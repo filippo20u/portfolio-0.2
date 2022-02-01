@@ -1,3 +1,305 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
+html{
+  
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align:center;
+  /* text-align:justify; */
+  /* line-height:10px; */
+  
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+
+  background-color: rgb(87, 155, 19);
+  height: 50px;
+}
+
+.navbar {
+
+  position:fixed;
+  top:0px;
+  left:0px;
+  background-color: hsl(180, 70%, 25%);
+  width: 100%;
+  height: 50px;
+  color: #ccffff;
+
+}
+
+.navbar-ul {
+  display:flex;
+  justify-content:space-between;
+  margin: 20px; 
+  margin-right: 20px;
+  margin: 10px;
+}
+
+.nav-link {
+  color: #fdfdfd;
+  text-shadow: 0ex;
+}
+
+body{
+  max-width: 1280px; 
+  background-color: rgb(255, 255, 255);
+  margin:auto;
+}
+
+
+.slide{
+        
+  background: linear-gradient(50deg, #2a148b, #FFCCCC);
+}
+
+
+.my-story {
+
+  background-color: rgb(77, 93, 184);
+}
+
+.bio{
+  display: flex;
+  flex-direction:row;
+}
+
+.bio-img{
+  max-height: 600px;
+}
+
+.my-stack {
+  display: flex;
+  flex-direction:row;
+  background-color: aqua;
+  text-align: justify;
+}
+
+.my-projects {
+
+  background-color: rgb(214, 16, 49);
+  background-image: url("./assets/pics/projects/treasurehunt.jpg");
+}
+
+.project-card{
+
+  background-color: tomato;
+  width:245px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  opacity:0.7;
+}
+
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.card-img-top{
+  height: 100px;
+  width: 100px;
+
+}
+
+.flexone-pro{
+ display:flex;
+ justify-content:space-between;
+}
+
+footer{
+
+  background-color: orangered;
+}
+
+
+h1 {
+  font-size: 68px;
+  font-weight:800;
+}
+h2 {
+  font-size: 52px;
+ font-weight:600;
+}
+h3 {
+  font-size: 40px;
+ font-weight:500;
+}
+h4 {
+  font-size: 32px;
+ font-weight:400;
+}
+h5 {
+  font-size: 21px;
+   font-weight:300;
+}
+h6 {
+  font-size: 14px;
+ font-weight:200;
+}
+
+a:hover {
+  color: rgb(255, 0, 242);
+}
+
+
+
+#rect {
+  height: 40px;
+  width: 70%;
+  background: black;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+#rect {
+
+animation-name: rainbow;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+0% {background-color: blue;}
+50% {background-color: rgb(39, 211, 153);}
+100% {background-color: yellow;}
+}
+
+
+button {
+  border-radius: 5px;
+  color: white;
+  background-color: #0F5897;
+  padding: 5px 10px 8px 10px;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes background-color {
+
+100% { background-color: #4791d0; }
+}
+
+
+#field-ball {
+
+  width: 200px;
+  height: 200px;
+}
+
+#ballone  {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ce1515
+  );
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 249px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+
+/* #new CSS for Feb2022 */
+
+.footer-index{
+
+  background-color: var(--celadon-green);
+}
+
+.flex-main{
+  height: 200px;
+  background-color: var(--myrtle-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ .card-main{
+
+  /* background-color: var(--celadon-green); */
+  width:100px;
+  height: 100px;;
+  /* border: 1px solid #ccc;
+  border-radius: 5px; */
+  margin: 10px 5px;
+  padding: 4px;
+  /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+  opacity:0.9;
+}
+
+
+.project-card:hover {
+  transform: scale(1.08);
+}
+
+
+.slide-index{
+
+  background-color: var(--platinum);
+}
+
+
+:root {
+
+/* CSS HEX */
+--platinum: #e6e9e7ff;
+--celadon-green: #2a8d82ff;
+--myrtle-green: #437979ff;
+--deep-space-sparkle: #506f75ff;
+--black-coral: #535b65ff;
+}
+
+.flex-main-big{
+
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  /* align-content: center; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+
+
+  height: 600px;
+  background-color: var(--deep-space-sparkle);
+ }
+
+.proj-img{
+  height: 400px;
+  width: 400px;
+}

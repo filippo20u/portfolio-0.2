@@ -268,7 +268,9 @@ button:hover {
 
 
 .slide-index{
-
+  display:flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--platinum);
 }
 
@@ -289,7 +291,6 @@ button:hover {
   display:flex;
   justify-content: center;
   align-items: center;
-
   /* align-content: center; */
   /* flex-direction: row; */
   justify-content: space-around;

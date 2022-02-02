@@ -61,37 +61,18 @@ body{
 }
 
 
-.my-story {
-
-  background-color: rgb(77, 93, 184);
-}
-
-.bio{
-  display: flex;
-  flex-direction:row;
-}
-
-.bio-img{
-  max-height: 600px;
-}
-
-.my-stack {
-  display: flex;
-  flex-direction:row;
-  background-color: aqua;
-  text-align: justify;
-}
-
 .my-projects {
 
   background-color: rgb(214, 16, 49);
-  background-image: url("./assets/pics/projects/treasurehunt.jpg");
+  background-image: url("./assets/pics/puzzle.jpg");
+  max-height: 700px;
+  color: #ccffff;
 }
 
 .project-card{
 
-  background-color: tomato;
-  width:245px;
+  background-color: var(--black-coral);
+  width:300px;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 5px 5px;
@@ -102,7 +83,7 @@ body{
 
 
 .project-card:hover {
-  transform: scale(1.1);
+  transform: scale(0.5);
 }
 
 .card-img-top{
@@ -318,4 +299,44 @@ button:hover {
   height: 100px;
   width: 100px;
   
+}
+
+
+
+/* About CSS */
+
+
+.my-story{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* height: 400px; */
+  background-color: var(--platinum);
+  text-indent: 3px;
+
+}
+
+
+.bio-p{
+  
+}
+
+
+
+
+.bio-img{
+  max-height: 600px;
+}
+
+.my-stack {
+  display: flex;
+  flex-direction:row;
+  background-color: var(--myrtle-green);
+  text-align: justify;
+  text-indent: 3px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }

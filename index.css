@@ -340,3 +340,28 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-white);
+  transition: all .4s ease-in-out;
+
+  img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    filter: grayscale(100%);
+    transition: all .4s ease-in-out;
+  }
